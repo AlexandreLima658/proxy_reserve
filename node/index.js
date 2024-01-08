@@ -7,7 +7,7 @@ const config = {
     host: 'db',
     user: 'root',
     password: 'root',
-    database:'node'
+    database:'nodedb'
 };
 
 app.get('/', (req, res) =>{
