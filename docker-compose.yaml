@@ -16,6 +16,9 @@ services:
     depends_on:
       - db
 
+    volumes:
+      - ./node:/app  
+
   db:
     image: mysql:5.7
     command: --innodb-use-native-aio=0
